@@ -1130,6 +1130,49 @@ Put specific matches for particular LaTeX keyword.functions before the last two 
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>((\\)todo)(\{)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.todo.latex</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.function.latex</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.todo.begin.latex</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>markup.bold.todo.latex</string>
+			<key>end</key>
+			<string>\}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.todo.end.latex</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.function.todo.latex</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$base</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>((\\)texttt)(\{)</string>
 			<key>captures</key>
 			<dict>
@@ -1481,6 +1524,37 @@ Put specific matches for particular LaTeX keyword.functions before the last two 
 			</dict>
 			<key>end</key>
 			<string>''|"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.latex</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.double.latex</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$base</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>`</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.latex</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>'</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>

@@ -1,14 +1,14 @@
 {
 	"name": "latex",
 	"version": "0.1.3",
-	"displayName": "LaTeX Language Support",
+	"displayName": "LaTeX Language Custom Fania",
 	"description": "LaTeX - colorizer, grammar and snippets.",
-	"publisher": "ms-vscode",
+	"publisher": "faniae",
 	"icon": "images/iconLaTeX.png",
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-LaTeX.git"
+		"url": "https://github.com/Fania/vscode-LaTeX.git"
 	},
 	"categories": [
 		"Languages",
