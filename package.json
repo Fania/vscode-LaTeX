@@ -4,6 +4,7 @@
     "displayName": "LaTeX Fania",
     "description": "LaTeX - extra stuff.",
     "publisher": "fania",
+    "icon": "fania.jpg",
     "license": "SEE LICENSE IN LICENSE.txt",
     "repository": {
         "type": "git",
