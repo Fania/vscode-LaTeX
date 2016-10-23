@@ -1,10 +1,9 @@
 {
-    "name": "latex",
-    "version": "0.4.0",
-    "displayName": "LaTeX Fania",
-    "description": "LaTeX - extra stuff.",
+    "name": "latex-fania",
+    "version": "0.5.0",
+    "displayName": "Fania LaTeX",
+    "description": "LaTeX support, including red todo's.",
     "publisher": "fania",
-    "icon": "fania.jpg",
     "license": "SEE LICENSE IN LICENSE.txt",
     "repository": {
         "type": "git",
